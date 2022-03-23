@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[passed]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-23T15:47:38 IST" name="Default suite" finished-at="2022-03-23T15:47:43 IST" duration-ms="4867">
+    <groups>
+    </groups>
+    <test started-at="2022-03-23T15:47:38 IST" name="Default test" finished-at="2022-03-23T15:47:43 IST" duration-ms="4867">
+      <class name="com.facebook.testscript.LogInTester">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.facebook.testscript.LogInTester@c9d0d6]" started-at="2022-03-23T15:47:38 IST" name="openBrowser" finished-at="2022-03-23T15:47:40 IST" duration-ms="2213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@c9d0d6]" started-at="2022-03-23T15:47:40 IST" name="openUrl" finished-at="2022-03-23T15:47:42 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="excel()[pri:0, instance:com.facebook.testscript.LogInTester@c9d0d6]" started-at="2022-03-23T15:47:42 IST" name="excel" finished-at="2022-03-23T15:47:42 IST" duration-ms="24" status="FAIL">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@44841b43]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@44841b43]
+at org.apache.poi.ss.usermodel.WorkbookFactory.wp(WorkbookFactory.java:334)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:224)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at com.facebook.genaric.Filelib.getExcelData(Filelib.java:30)
+at com.facebook.testscript.LogInTester.excel(LogInTester.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@c9d0d6]" started-at="2022-03-23T15:47:42 IST" name="logout" finished-at="2022-03-23T15:47:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@c9d0d6]" started-at="2022-03-23T15:47:42 IST" name="openUrl" finished-at="2022-03-23T15:47:43 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="loginPageTester()[pri:0, instance:com.facebook.testscript.LogInTester@c9d0d6]" started-at="2022-03-23T15:47:43 IST" name="loginPageTester" finished-at="2022-03-23T15:47:43 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageTester -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@c9d0d6]" started-at="2022-03-23T15:47:43 IST" name="logout" finished-at="2022-03-23T15:47:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.facebook.testscript.LogInTester@c9d0d6]" started-at="2022-03-23T15:47:43 IST" name="closeBrowser" finished-at="2022-03-23T15:47:43 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.facebook.testscript.LogInTester -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
