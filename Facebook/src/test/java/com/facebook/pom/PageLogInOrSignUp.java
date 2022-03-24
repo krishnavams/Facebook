@@ -20,6 +20,12 @@ public class PageLogInOrSignUp {
 
 	@FindBy(xpath = "(//div/a[@role='button'])[2]")
 	private WebElement CreateAcc;
+	
+	@FindBy(xpath = "//img[@alt='Facebook']")
+	private WebElement facebookLogo;
+	
+	@FindBy(xpath = "//h2[contains(text(),'Facebook helps you connect')]")
+	private WebElement facebookText;
 
 	public PageLogInOrSignUp(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -44,5 +50,15 @@ public class PageLogInOrSignUp {
 	public WebElement getCreateAcc() {
 		return CreateAcc;
 	}
+
+	public WebElement getFacebookLogo() {
+		return facebookLogo;
+	}
+
+	public WebElement getFacebookText() {
+		return facebookText;
+	}
+	
+	
 
 }

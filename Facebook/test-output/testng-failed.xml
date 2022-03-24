@@ -6,10 +6,11 @@
       <class name="com.facebook.testscript.LogInTester">
         <methods>
           <include name="openBrowser"/>
+          <include name="loginButtonCheck"/>
+          <include name="loginPageTester"/>
           <include name="openUrl"/>
-          <include name="logout"/>
           <include name="closeBrowser"/>
-          <include name="excel"/>
+          <include name="logout"/>
         </methods>
       </class> <!-- com.facebook.testscript.LogInTester -->
     </classes>

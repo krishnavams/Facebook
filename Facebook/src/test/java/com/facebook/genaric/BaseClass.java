@@ -3,6 +3,7 @@ package com.facebook.genaric;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -15,8 +16,8 @@ public class BaseClass {
 	
 	@BeforeTest
 	public void openBrowser() {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		WebDriverManager.edgedriver().setup();
+		driver = new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	}
 	@BeforeMethod
