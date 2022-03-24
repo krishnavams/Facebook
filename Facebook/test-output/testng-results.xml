@@ -17,79 +17,79 @@
       <![CDATA[logout]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-03-24T06:50:23 IST" name="Default suite" finished-at="2022-03-24T06:50:33 IST" duration-ms="10380">
+  <suite started-at="2022-03-24T06:54:21 IST" name="Default suite" finished-at="2022-03-24T06:54:31 IST" duration-ms="10174">
     <groups>
     </groups>
-    <test started-at="2022-03-24T06:50:23 IST" name="Default test" finished-at="2022-03-24T06:50:33 IST" duration-ms="10380">
+    <test started-at="2022-03-24T06:54:21 IST" name="Default test" finished-at="2022-03-24T06:54:31 IST" duration-ms="10174">
       <class name="com.facebook.testscript.LogInTester">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:23 IST" name="openBrowser" finished-at="2022-03-24T06:50:26 IST" duration-ms="2953" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:21 IST" name="openBrowser" finished-at="2022-03-24T06:54:22 IST" duration-ms="1501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:26 IST" name="openUrl" finished-at="2022-03-24T06:50:28 IST" duration-ms="2440" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:22 IST" name="openUrl" finished-at="2022-03-24T06:54:24 IST" duration-ms="1550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="TextChecker()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:28 IST" name="TextChecker" finished-at="2022-03-24T06:50:28 IST" duration-ms="50" status="PASS">
+        <test-method signature="TextChecker()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:24 IST" name="TextChecker" finished-at="2022-03-24T06:54:24 IST" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TextChecker -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:28 IST" name="logout" finished-at="2022-03-24T06:50:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:24 IST" name="logout" finished-at="2022-03-24T06:54:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:28 IST" name="openUrl" finished-at="2022-03-24T06:50:30 IST" duration-ms="1533" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:24 IST" name="openUrl" finished-at="2022-03-24T06:54:25 IST" duration-ms="798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="loginButtonCheck()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:30 IST" name="loginButtonCheck" finished-at="2022-03-24T06:50:30 IST" duration-ms="21" status="PASS">
+        <test-method signature="loginButtonCheck()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:25 IST" name="loginButtonCheck" finished-at="2022-03-24T06:54:25 IST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginButtonCheck -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:30 IST" name="logout" finished-at="2022-03-24T06:50:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:25 IST" name="logout" finished-at="2022-03-24T06:54:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:30 IST" name="openUrl" finished-at="2022-03-24T06:50:31 IST" duration-ms="1534" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:25 IST" name="openUrl" finished-at="2022-03-24T06:54:26 IST" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="loginLogoDisplay()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:31 IST" name="loginLogoDisplay" finished-at="2022-03-24T06:50:31 IST" duration-ms="47" status="PASS">
+        <test-method signature="loginLogoDisplay()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:26 IST" name="loginLogoDisplay" finished-at="2022-03-24T06:54:26 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogoDisplay -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:31 IST" name="logout" finished-at="2022-03-24T06:50:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:26 IST" name="logout" finished-at="2022-03-24T06:54:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:31 IST" name="openUrl" finished-at="2022-03-24T06:50:33 IST" duration-ms="1388" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:26 IST" name="openUrl" finished-at="2022-03-24T06:54:26 IST" duration-ms="700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="loginPageTester()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:33 IST" name="loginPageTester" finished-at="2022-03-24T06:50:33 IST" duration-ms="227" status="PASS">
+        <test-method signature="loginPageTester()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:26 IST" name="loginPageTester" finished-at="2022-03-24T06:54:27 IST" duration-ms="317" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginPageTester -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:33 IST" name="logout" finished-at="2022-03-24T06:50:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:27 IST" name="logout" finished-at="2022-03-24T06:54:27 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:50:33 IST" name="closeBrowser" finished-at="2022-03-24T06:50:33 IST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.facebook.testscript.LogInTester@4b41dd5c]" started-at="2022-03-24T06:54:27 IST" name="closeBrowser" finished-at="2022-03-24T06:54:31 IST" duration-ms="4169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

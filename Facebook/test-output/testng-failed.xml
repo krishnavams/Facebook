@@ -7,10 +7,12 @@
         <methods>
           <include name="openBrowser"/>
           <include name="loginButtonCheck"/>
+          <include name="loginLogoDisplay"/>
           <include name="loginPageTester"/>
           <include name="openUrl"/>
-          <include name="closeBrowser"/>
+          <include name="TextChecker"/>
           <include name="logout"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.facebook.testscript.LogInTester -->
     </classes>
